@@ -1,4 +1,10 @@
 {
-  "name": "FourBottels",
-  "displayName": "4Bottels"
+  "expo": {
+    "name": "4Bottels",
+    "slug": "4bottels",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "jsEngine": "hermes"
+  }
 }

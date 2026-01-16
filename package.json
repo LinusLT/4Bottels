@@ -4,12 +4,13 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "react-native start",
-    "android": "react-native run-android",
-    "ios": "react-native run-ios"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.23.1",
+    "expo": "^51.0.0",
     "react": "18.2.0",
     "react-native": "0.74.0"
   }
